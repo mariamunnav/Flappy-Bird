@@ -22,8 +22,9 @@ public class GoldPicker : MonoBehaviour
         
     }
 
-    //Si el jugador toca el objeto con ScoreManager, suma 
-    //puntos y destruye el objeto
+    //Si el jugador toca el objeto (compruebo que
+    // no se haya recogido antes, sería un error)con 
+    // ScoreManager, suma puntos y destruye el objeto
      private void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag("Player") && !isCollected)

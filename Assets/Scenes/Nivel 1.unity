@@ -884,7 +884,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5226273326654942886, guid: 1aabd44afa1161e49af1151de98a4cb5, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 58
+      value: 59
       objectReference: {fileID: 0}
     - target: {fileID: 5226273326654942886, guid: 1aabd44afa1161e49af1151de98a4cb5, type: 3}
       propertyPath: m_LocalPosition.y
@@ -1079,7 +1079,7 @@ GameObject:
   - component: {fileID: 734129679}
   m_Layer: 0
   m_Name: SueloDia_0
-  m_TagString: Untagged
+  m_TagString: Suelo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1843,8 +1843,8 @@ SphereCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Radius: 0.5
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Radius: 0.6
+  m_Center: {x: 0.1, y: 0.1, z: 0}
 --- !u!54 &1378929467
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -2396,6 +2396,26 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cometa
       objectReference: {fileID: 0}
+    - target: {fileID: 4750850066058600194, guid: ddd392645d31dc6489a3f9ab66cfb092, type: 3}
+      propertyPath: m_Height
+      value: 1.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4750850066058600194, guid: ddd392645d31dc6489a3f9ab66cfb092, type: 3}
+      propertyPath: m_Radius
+      value: 0.55
+      objectReference: {fileID: 0}
+    - target: {fileID: 4750850066058600194, guid: ddd392645d31dc6489a3f9ab66cfb092, type: 3}
+      propertyPath: m_Center.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4750850066058600194, guid: ddd392645d31dc6489a3f9ab66cfb092, type: 3}
+      propertyPath: m_Center.y
+      value: -0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4750850066058600194, guid: ddd392645d31dc6489a3f9ab66cfb092, type: 3}
+      propertyPath: m_Center.z
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4917314298869851400, guid: ddd392645d31dc6489a3f9ab66cfb092, type: 3}
       propertyPath: m_LocalScale.x
       value: 1
@@ -2440,7 +2460,9 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 30
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 7224804039576822934, guid: ddd392645d31dc6489a3f9ab66cfb092, type: 3}
+    - {fileID: 767717978742194194, guid: ddd392645d31dc6489a3f9ab66cfb092, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -2644,6 +2666,10 @@ PrefabInstance:
       propertyPath: m_LocalPosition.y
       value: 0.25
       objectReference: {fileID: 0}
+    - target: {fileID: 3375749695865940183, guid: 69e7075164943074aa2aeb75f8d29333, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5155322197472997392, guid: 69e7075164943074aa2aeb75f8d29333, type: 3}
       propertyPath: m_LocalPosition.y
       value: 0.2
@@ -2700,7 +2726,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 3375749695865940183, guid: 69e7075164943074aa2aeb75f8d29333, type: 3}
+    - {fileID: 1624050567051894051, guid: 69e7075164943074aa2aeb75f8d29333, type: 3}
+    - {fileID: 1130665770799121906, guid: 69e7075164943074aa2aeb75f8d29333, type: 3}
+    - {fileID: 6105228178027746661, guid: 69e7075164943074aa2aeb75f8d29333, type: 3}
+    - {fileID: 5837255723702742658, guid: 69e7075164943074aa2aeb75f8d29333, type: 3}
+    - {fileID: 7454788391662276412, guid: 69e7075164943074aa2aeb75f8d29333, type: 3}
+    - {fileID: 5899768572535173585, guid: 69e7075164943074aa2aeb75f8d29333, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []

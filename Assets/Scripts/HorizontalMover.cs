@@ -1,3 +1,4 @@
+//Esto es simplemente para el movimiento de la cometa
 using UnityEngine;
 
 public class HorizontalMover : MonoBehaviour
@@ -12,8 +13,7 @@ public class HorizontalMover : MonoBehaviour
     void Start()
     {
         //Guardo la posición iniciald del bloque
-        startPos = transform.position;
-        
+        startPos = transform.position;   
     }
 
     // Update is called once per frame

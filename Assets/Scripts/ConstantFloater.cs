@@ -22,7 +22,7 @@ public class Constant : MonoBehaviour
     void Update()
     {
         float newY = startPos.y + Mathf.Sin(Time.time * final_frequency) * amplitude;
-transform.localPosition = new Vector3(startPos.x, newY, startPos.z);
+        transform.localPosition = new Vector3(startPos.x, newY, startPos.z);
         
     }
 }

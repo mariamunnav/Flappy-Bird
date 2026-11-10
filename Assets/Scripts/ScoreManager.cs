@@ -16,6 +16,7 @@ public class ScoreManager : MonoBehaviour
     //Para guardar los puntos exactos con los que se quedó en el
     //nivel 1, y si falla en el nivel 2, volver a empezar con esos puntos y no con 0
     private int savedScore=0;
+    //Variable que guarda el índice de escena actual
     private int currentSceneIndex=-1;
     //Referencia al texto de la UI que muestra la puntuación
     [SerializeField] private Text scoreText;

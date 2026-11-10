@@ -257,6 +257,18 @@ PrefabInstance:
       propertyPath: m_LocalPosition.y
       value: 0.22
       objectReference: {fileID: 0}
+    - target: {fileID: 5899768572535173585, guid: 69e7075164943074aa2aeb75f8d29333, type: 3}
+      propertyPath: m_Radius
+      value: 0.68
+      objectReference: {fileID: 0}
+    - target: {fileID: 5899768572535173585, guid: 69e7075164943074aa2aeb75f8d29333, type: 3}
+      propertyPath: m_Center.x
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5899768572535173585, guid: 69e7075164943074aa2aeb75f8d29333, type: 3}
+      propertyPath: m_Center.y
+      value: 0.14
+      objectReference: {fileID: 0}
     - target: {fileID: 8200002420837922411, guid: 69e7075164943074aa2aeb75f8d29333, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.3
@@ -321,7 +333,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 3375749695865940183, guid: 69e7075164943074aa2aeb75f8d29333, type: 3}
+    - {fileID: 1624050567051894051, guid: 69e7075164943074aa2aeb75f8d29333, type: 3}
+    - {fileID: 1130665770799121906, guid: 69e7075164943074aa2aeb75f8d29333, type: 3}
+    - {fileID: 6105228178027746661, guid: 69e7075164943074aa2aeb75f8d29333, type: 3}
+    - {fileID: 5837255723702742658, guid: 69e7075164943074aa2aeb75f8d29333, type: 3}
+    - {fileID: 7454788391662276412, guid: 69e7075164943074aa2aeb75f8d29333, type: 3}
+    - {fileID: 5899768572535173585, guid: 69e7075164943074aa2aeb75f8d29333, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -437,8 +456,8 @@ Transform:
   m_GameObject: {fileID: 74993127}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 50, y: -5, z: 0}
-  m_LocalScale: {x: 120, y: 1, z: 5}
+  m_LocalPosition: {x: 50, y: -4.9, z: 0}
+  m_LocalScale: {x: 120, y: 1, z: 9}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -2386,8 +2405,8 @@ SphereCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Radius: 0.5
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Radius: 0.49
+  m_Center: {x: 0.09, y: 0.05, z: 0}
 --- !u!54 &1378929467
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -2864,7 +2883,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 28, y: 3, z: 2.99}
-  m_LocalScale: {x: 6, y: 1, z: 1}
+  m_LocalScale: {x: 6.2, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -2877,6 +2896,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 59470561434564425, guid: ddd392645d31dc6489a3f9ab66cfb092, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.2
+      objectReference: {fileID: 0}
     - target: {fileID: 312655611604648696, guid: ddd392645d31dc6489a3f9ab66cfb092, type: 3}
       propertyPath: speed
       value: 2
@@ -2888,6 +2911,30 @@ PrefabInstance:
     - target: {fileID: 964869347634873243, guid: ddd392645d31dc6489a3f9ab66cfb092, type: 3}
       propertyPath: m_Name
       value: Cometa
+      objectReference: {fileID: 0}
+    - target: {fileID: 4750850066058600194, guid: ddd392645d31dc6489a3f9ab66cfb092, type: 3}
+      propertyPath: m_Height
+      value: 1.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4750850066058600194, guid: ddd392645d31dc6489a3f9ab66cfb092, type: 3}
+      propertyPath: m_Radius
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4750850066058600194, guid: ddd392645d31dc6489a3f9ab66cfb092, type: 3}
+      propertyPath: m_Center.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4750850066058600194, guid: ddd392645d31dc6489a3f9ab66cfb092, type: 3}
+      propertyPath: m_Center.y
+      value: -0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4750850066058600194, guid: ddd392645d31dc6489a3f9ab66cfb092, type: 3}
+      propertyPath: m_Center.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4750850066058600194, guid: ddd392645d31dc6489a3f9ab66cfb092, type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4917314298869851400, guid: ddd392645d31dc6489a3f9ab66cfb092, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3297,7 +3344,7 @@ GameObject:
   - component: {fileID: 2056700761}
   m_Layer: 0
   m_Name: SueloNoche_0
-  m_TagString: Untagged
+  m_TagString: Suelo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
